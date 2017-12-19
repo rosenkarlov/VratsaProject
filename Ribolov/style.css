@@ -1,0 +1,109 @@
+body, div, header, main, 
+aside, ul, li, a, section, p
+img {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-image: url(idyllic_landscape_italy-wallpaper-1920x1080.jpg);
+	background-size: cover;
+	background-color: #1F1515;
+	width: 100%;
+}
+#wrapper {
+	width: 90%;
+	height: 1000px;
+	margin: auto;
+	position: relative;
+}
+#container {
+	width: 67%;
+	height: 800px;
+	position: absolute;
+	top: 0;
+	left: 33%;
+}
+aside {
+	width: 30%;
+	height: 800px;
+	position: absolute;
+	top: 0;
+}
+li	{
+	display: block;
+	text-align: center;
+	margin:20px;
+	border: 3px solid #FF0033;
+	border-radius: 25px;
+	padding: 10px;
+	width: 110px;
+	height: 45px;
+}
+a {
+	text-decoration: none;
+	text-align: center;
+	padding: 10px;
+}
+header {
+	text-align: center;
+	padding: 12px;
+
+	
+}
+main {	
+
+	position: relative;
+	
+}
+section {
+	width: 48%
+}
+#second {
+	position: absolute;
+	top: 0;
+	left:31.8%;
+}
+p, article {
+	padding: 10px;
+	color: #FF0033;
+	font-size: 20px;
+	height: 125px;
+	
+}
+.Opacity {
+	opacity: 0.3;
+    filter: alpha(opacity=30);
+}
+.Opacity:hover {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+#Long	{
+	position: absolute;
+	top: 0px;
+	height: 400px;
+	width: 800px;
+	text-align: justify;
+	overflow: auto;
+}
+footer {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	font-size: 20px;
+	text-shadow: -2px -2px #993333;
+	background-color: #007700;
+	position: relative;
+	top: 900px
+}
+h2 {
+	/*text-align: left;*/
+	color: #EE0000;
+}
+
+.TypeFishing {
+	color: #791414;
+	position: absolute;
+	left: 200px;
+	top: 90px;
+}
